@@ -38,3 +38,5 @@ In looking at the accuracy scores, the resampling models performed well enough, 
 
 
 ## **Summary**
+
+Overall, most models predicted low risk loans well enough, with all achieving essentially 100% precision. When it came to high risk loans on the other hand, there were few models that were precise but some that had a high sensitivity to make up for that. Balanced Random Forest and Easy Ensemble had the best high risk precision, with 3% and 9% respectively. Easy Ensemble also had a sensitivity of 92%, giving it a F1 score of 16%, the best of all models. I would recommend the Easy Ensemble model because of this. It might not be the most precise, but in this case it's better to have more false positives to account for the low amount of high risk loans. Better the applications be appealed or required to provide more information resulting in a low risk loan.
